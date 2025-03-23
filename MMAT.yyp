@@ -34,8 +34,10 @@
   },
   "name":"MMAT",
   "resources":[
+    {"id":{"name":"btnCount","path":"objects/btnCount/btnCount.yy",},},
     {"id":{"name":"objCoreTimer","path":"objects/objCoreTimer/objCoreTimer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"sprBtnPause","path":"sprites/sprBtnPause/sprBtnPause.yy",},},
     {"id":{"name":"sprCoreTimer","path":"sprites/sprCoreTimer/sprCoreTimer.yy",},},
   ],
   "resourceType":"GMProject",
