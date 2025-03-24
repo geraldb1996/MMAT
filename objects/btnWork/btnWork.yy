@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"btnCount",
+  "%Name":"btnWork",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"btnCount",
+  "name":"btnWork",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBtnPause",
-    "path":"sprites/sprBtnPause/sprBtnPause.yy",
+    "name":"sprBtnWork",
+    "path":"sprites/sprBtnWork/sprBtnWork.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"btnCount",
+  "%Name":"objButton",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"btnCount",
+  "name":"objButton",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"UI buttons",
+    "path":"folders/Objects/UI buttons.yy",
   },
-  "parentObjectId":{
-    "name":"objButton",
-    "path":"objects/objButton/objButton.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprBtnPause",
-    "path":"sprites/sprBtnPause/sprBtnPause.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

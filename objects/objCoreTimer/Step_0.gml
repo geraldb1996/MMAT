@@ -5,7 +5,6 @@ switch(state){
 	case "COUNTING":
 		stepCount += 1;
 		break;
-
 }
 
 if (stepCount == 15){
@@ -17,4 +16,3 @@ if (seconds == 60){
 	minutes += 1;
 	seconds = 0;
 	}
-	
