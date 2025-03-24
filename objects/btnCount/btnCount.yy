@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBtnPause",
-    "path":"sprites/sprBtnPause/sprBtnPause.yy",
+    "name":"sprBtnStart",
+    "path":"sprites/sprBtnStart/sprBtnStart.yy",
   },
   "spriteMaskId":null,
   "visible":true,
