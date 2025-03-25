@@ -8,6 +8,8 @@ if instance_exists(guiMin) or instance_exists(guiSec) or instance_exists(guiRnd)
 	instance_destroy(guiMin);
 	instance_destroy(guiSec);
 	instance_destroy(guiRnd);
+	instance_destroy(btnMinus);
+	instance_destroy(btnPlus);
 	}
 else{
 	instance_create_depth(x, y,1, guiMin);

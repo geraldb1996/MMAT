@@ -1,5 +1,3 @@
-show_debug_message("Minus pressed");
-
 switch(objSelection.pointing){
 	case "ROUNDS":
 		objCoreTimer.rounds -= 1;
@@ -8,6 +6,15 @@ switch(objSelection.pointing){
 		objCoreTimer.minutes -= 1;
 		break;
 	case "SECONDS":
-		objCoreTimer.seconds -= 15;
+		objCoreTimer.seconds -= 5;
+		break;
+	case "RESTMIN":
+		objCoreTimer.restMinutes -= 1;
+		break;
+	case "RESTSEC":
+		objCoreTimer.restSeconds -= 5;
+		if (objCoreTimer.restSeconds < 0){
+			objCoreTimer.restSeconds = 59;
+			}
 		break;
 	}
