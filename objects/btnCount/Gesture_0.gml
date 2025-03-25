@@ -3,3 +3,12 @@ if (objCoreTimer.state == "PAUSE"){
 	image_index = 1;
 }
 else{objCoreTimer.state = "PAUSE"; image_index = 0;}
+
+if instance_exists(guiMin) or instance_exists(guiSec){
+	instance_destroy(guiMin);
+	instance_destroy(guiSec);
+	}
+else{
+	instance_create_depth(x, y,1, guiMin);
+	instance_create_depth(x,y,1,guiSec);
+	}

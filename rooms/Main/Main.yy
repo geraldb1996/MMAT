@@ -6,14 +6,12 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_6955694D","path":"rooms/Main/Main.yy",},
     {"name":"inst_45CED620","path":"rooms/Main/Main.yy",},
     {"name":"inst_305291BE","path":"rooms/Main/Main.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_6955694D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6955694D","objectId":{"name":"objCoreTimer","path":"objects/objCoreTimer/objCoreTimer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":608.0,},
         {"$GMRInstance":"v1","%Name":"inst_45CED620","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45CED620","objectId":{"name":"btnSpar","path":"objects/btnSpar/btnSpar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":960.0,},
         {"$GMRInstance":"v1","%Name":"inst_305291BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_305291BE","objectId":{"name":"btnWork","path":"objects/btnWork/btnWork.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":960.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

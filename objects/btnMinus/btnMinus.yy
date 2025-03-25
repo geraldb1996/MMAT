@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"objButton",
+  "%Name":"btnMinus",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objButton",
+  "name":"btnMinus",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI Control",
-    "path":"folders/Objects/UI Control.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objButton",
+    "path":"objects/objButton/objButton.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprMinus",
+    "path":"sprites/sprMinus/sprMinus.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

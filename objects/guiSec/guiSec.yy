@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"objButton",
+  "%Name":"guiSec",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objButton",
+  "name":"guiSec",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI Control",
-    "path":"folders/Objects/UI Control.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprSecCount",
+    "path":"sprites/sprSecCount/sprSecCount.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
