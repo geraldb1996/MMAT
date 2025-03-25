@@ -1,3 +1,1 @@
-if (room =! Work){
-	show_debug_message("Plus pressed");
-	}
+show_debug_message("Minus pressed");
