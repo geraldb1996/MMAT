@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"btnCount",
+  "%Name":"btnRestart",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"btnCount",
+  "name":"btnRestart",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBtnStart",
-    "path":"sprites/sprBtnStart/sprBtnStart.yy",
+    "name":"sprBtnRestart",
+    "path":"sprites/sprBtnRestart/sprBtnRestart.yy",
   },
   "spriteMaskId":null,
   "visible":true,

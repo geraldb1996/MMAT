@@ -16,3 +16,12 @@ else{
 	instance_create_depth(x,y,1,guiSec);
 	instance_create_depth(x,y,1,guiRnd);
 	}
+
+if(firstConfig == true){
+	objCoreTimer.pRounds = objCoreTimer.rounds;
+	objCoreTimer.pMinutes = objCoreTimer.minutes;
+	objCoreTimer.pSeconds = objCoreTimer.seconds;
+	objCoreTimer.pRestMinutes = objCoreTimer.restMinutes;
+	objCoreTimer.pRestSeconds = objCoreTimer.restSeconds;
+	firstConfig = false;
+	}

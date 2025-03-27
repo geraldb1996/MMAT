@@ -1,0 +1,1 @@
+firstConfig = true; //variable para setear los pSeconds
