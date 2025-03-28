@@ -21,6 +21,7 @@ if(firstConfig == true){
 	objCoreTimer.pRounds = objCoreTimer.rounds;
 	objCoreTimer.pMinutes = objCoreTimer.minutes;
 	objCoreTimer.pSeconds = objCoreTimer.seconds;
+	
 	objCoreTimer.pRestMinutes = objCoreTimer.restMinutes;
 	objCoreTimer.pRestSeconds = objCoreTimer.restSeconds;
 	firstConfig = false;
