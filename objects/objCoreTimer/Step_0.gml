@@ -1,4 +1,7 @@
 switch(state){
+	case "ININT":
+		//initial status for timer
+		break;
 	case "PAUSE":
 		//pauses the counters
 		break;
@@ -14,13 +17,13 @@ switch(state){
 			
 		//Formatting the seconds, minutes and rounds counters
 		//Ending the round and change to REST counter
-		 if (minutes == 0) && (rounds > 0) && (seconds == 0){
-			 rounds -= 1; seconds = 59; state = "REST";
+		 if (minutes == 0) && (currentRound <= rounds) && (seconds == 0){
+			 currentRound += 1; seconds = 59; state = "REST";
 			 restMinutes = pRestMinutes; restSeconds = pRestSeconds;}
 		
 		//Format the seconds and stop timers
 		 if (seconds == 0) && (minutes > 0){minutes -= 1; seconds = 59;}
-		 if (seconds == 0) && (minutes == 0) && (rounds == 0){state = "PAUSE"; show_message("Contador finalizado")}
+		 if (seconds == 0) && (minutes == 0) && (currentRound > rounds){state = "FINISH";}
 		break;
 
 	case "REST":
@@ -32,7 +35,7 @@ switch(state){
 			stepCount = 0;
 			}
 		//Stop rest timer and move to next round
-		 if (restMinutes == 0) && (rounds > 0) && (restSeconds == 0){
+		 if (restMinutes == 0) && (currentRound <= rounds) && (restSeconds == 0){
 			 //Assign seconds for rest from config if its less than 1min
 			if (minutes == 0) && (seconds <= 59){seconds = pSeconds;}
 			state = "COUNTING";}
@@ -40,7 +43,17 @@ switch(state){
 		 if (restSeconds == 0) && (restMinutes > 0){restMinutes -= 1; restSeconds = 59;}
 		 
 		//Ends counter if no rounds left
-		 if (rounds == 0){state = "PAUSE"; show_message("Contador finalizado")}
+		 if (currentRound > rounds){state = "PAUSE"; show_message("Contador finalizado")}
+		break;
+
+	case "FINISH":
+		state = "INIT";
+		show_message("Contador finalizado")
+		instance_create_depth(704, 640,1, guiMin);
+		instance_create_depth(704,832,1,guiSec);
+		instance_create_depth(695,447,1,guiRnd);
+		instance_create_depth(704, 1056, 1, guiRestMin);
+		instance_create_depth(704, 1232, 1, guiRestSec);
 		break;
 }
 

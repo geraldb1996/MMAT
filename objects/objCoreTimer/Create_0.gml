@@ -1,4 +1,5 @@
 rounds = 0;
+currentRound = 1;
 seconds = 0;
 minutes = 0;
 hours = 0;
@@ -15,4 +16,4 @@ pRestSeconds = 0;
 
 game_set_speed(15, gamespeed_fps);
 
-state = "PAUSE";
+state = "INIT";
