@@ -1,0 +1,1 @@
+show_debug_message("GUI MIN created OwO at "+" X:"+ string(x)+" Y:"+string(y))

@@ -1,5 +1,5 @@
 switch(state){
-	case "ININT":
+	case "INIT":
 		//initial status for timer
 		break;
 	case "PAUSE":
@@ -43,17 +43,23 @@ switch(state){
 		 if (restSeconds == 0) && (restMinutes > 0){restMinutes -= 1; restSeconds = 59;}
 		 
 		//Ends counter if no rounds left
-		 if (currentRound > rounds){state = "PAUSE"; show_message("Contador finalizado")}
+		 if (currentRound > rounds){state = "FINISH";}
 		break;
 
 	case "FINISH":
-		state = "INIT";
-		show_message("Contador finalizado")
+		show_message("Contador finalizado by FINISH")
 		instance_create_depth(704, 640,1, guiMin);
 		instance_create_depth(704,832,1,guiSec);
 		instance_create_depth(695,447,1,guiRnd);
 		instance_create_depth(704, 1056, 1, guiRestMin);
 		instance_create_depth(704, 1232, 1, guiRestSec);
+		objCoreTimer.rounds = objCoreTimer.pRounds;
+		objCoreTimer.minutes = objCoreTimer.pMinutes;
+		objCoreTimer.seconds = objCoreTimer.pSeconds;
+		objCoreTimer.restMinutes = objCoreTimer.pRestMinutes;
+		objCoreTimer.restSeconds = objCoreTimer.pRestSeconds;
+		btnCount.firstConfig = true;
+		currentRound = 1;
+		state = "INIT";
 		break;
 }
-
