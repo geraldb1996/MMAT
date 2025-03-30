@@ -11,5 +11,5 @@ objCoreTimer.seconds = objCoreTimer.pSeconds;
 objCoreTimer.restMinutes = objCoreTimer.pRestMinutes;
 objCoreTimer.restSeconds = objCoreTimer.pRestSeconds;
 objCoreTimer.state = "INIT";
-
+objCoreTimer.currentRound = 1;
 btnCount.firstConfig = true;
