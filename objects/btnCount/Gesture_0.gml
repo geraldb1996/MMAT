@@ -1,8 +1,8 @@
 
-if (objCoreTimer.rounds == 0){show_message("No has agregado los rounds")}
+if (global.rounds == 0){show_message("No has agregado los rounds")}
 
 else{
-	if (objCoreTimer.minutes == 0) && (objCoreTimer.seconds == 0){show_message("Tiempo del round pendejo")}
+	if (global.minutes == 0) && (global.seconds == 0){show_message("Tiempo del round pendejo")}
 	else{
 		if (objCoreTimer.state == "COUNTING"){objCoreTimer.state = "PAUSE";}
 			else if (objCoreTimer.state == "PAUSE"){objCoreTimer.state = "COUNTING";}
@@ -19,12 +19,12 @@ else{
 			instance_destroy(guiRestSec);
 	}}
 		if(firstConfig == true){
-			objCoreTimer.pRounds = objCoreTimer.rounds;
-			objCoreTimer.pMinutes = objCoreTimer.minutes;
-			objCoreTimer.pSeconds = objCoreTimer.seconds;
+			global.pRounds = global.rounds;
+			global.pMinutes = global.minutes;
+			global.pSeconds = global.seconds;
 	
-			objCoreTimer.pRestMinutes = objCoreTimer.restMinutes;
-			objCoreTimer.pRestSeconds = objCoreTimer.restSeconds;
+			global.pRestMinutes = global.restMinutes;
+			global.pRestSeconds = global.restSeconds;
 			firstConfig = false;
 	}
 	}

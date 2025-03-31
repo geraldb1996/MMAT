@@ -1,20 +1,20 @@
 switch(objSelection.pointing){
 	case "ROUNDS":
-		objCoreTimer.rounds -= 1;
+		if (global.rounds > 0){
+			global.rounds -= 1;}
 		break;
 	case "MINUTES":
-		objCoreTimer.minutes -= 1;
+		if (global.minutes > 0){
+			global.minutes -= 1;}
 		break;
 	case "SECONDS":
-		objCoreTimer.seconds -= 5;
+		global.seconds -= 5;
 		break;
 	case "RESTMIN":
-		objCoreTimer.restMinutes -= 1;
+		if (global.restMinutes > 0){
+			global.restMinutes -= 1;}
 		break;
 	case "RESTSEC":
-		objCoreTimer.restSeconds -= 5;
-		if (objCoreTimer.restSeconds < 0){
-			objCoreTimer.restSeconds = 59;
-			}
+		global.restSeconds -= 5;
 		break;
 	}

@@ -52,6 +52,7 @@
     {"id":{"name":"guiSec","path":"objects/guiSec/guiSec.yy",},},
     {"id":{"name":"objButton","path":"objects/objButton/objButton.yy",},},
     {"id":{"name":"objCoreTimer","path":"objects/objCoreTimer/objCoreTimer.yy",},},
+    {"id":{"name":"objInit","path":"objects/objInit/objInit.yy",},},
     {"id":{"name":"objSelection","path":"objects/objSelection/objSelection.yy",},},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
     {"id":{"name":"Sparring","path":"rooms/Sparring/Sparring.yy",},},

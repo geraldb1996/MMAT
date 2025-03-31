@@ -1,2 +1,2 @@
 draw_self();
-draw_text(x, y, objCoreTimer.minutes);
+draw_text(x, y, global.minutes);

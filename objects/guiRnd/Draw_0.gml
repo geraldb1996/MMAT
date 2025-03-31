@@ -1,2 +1,2 @@
 draw_self();
-draw_text(x, y, objCoreTimer.rounds);
+draw_text(x, y, global.rounds);

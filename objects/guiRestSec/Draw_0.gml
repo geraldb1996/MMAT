@@ -1,2 +1,2 @@
 draw_self();
-draw_text(x, y, objCoreTimer.restSeconds);
+draw_text(x, y, global.restSeconds);

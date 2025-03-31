@@ -5,11 +5,11 @@ instance_create_depth(704, 1056, 1, guiRestMin);
 instance_create_depth(704, 1232, 1, guiRestSec);
 
 
-objCoreTimer.rounds = objCoreTimer.pRounds;
-objCoreTimer.minutes = objCoreTimer.pMinutes;
-objCoreTimer.seconds = objCoreTimer.pSeconds;
-objCoreTimer.restMinutes = objCoreTimer.pRestMinutes;
-objCoreTimer.restSeconds = objCoreTimer.pRestSeconds;
+global.rounds = global.pRounds;
+global.minutes = global.pMinutes;
+global.seconds = global.pSeconds;
+global.restMinutes = global.pRestMinutes;
+global.restSeconds = global.pRestSeconds;
 objCoreTimer.state = "INIT";
-objCoreTimer.currentRound = 1;
+global.currentRound = 1;
 btnCount.firstConfig = true;

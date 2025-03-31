@@ -1,9 +1,14 @@
 switch(state){
 	case "INIT":
-		//initial status for timer
+		//initial status for timer, seconds formatting
+		if (global.seconds < 0){global.seconds = 59;}
+		if (global.restSeconds < 0){global.restSeconds = 59;}
+		if (global.seconds > 59){global.seconds = 0;}
+		if (global.restSeconds > 59){global.restSeconds = 0;}
 		break;
 	case "PAUSE":
 		//pauses the counters
+		
 		break;
 		
 	case "COUNTING":
@@ -11,19 +16,19 @@ switch(state){
 		
 		//Assign 1 second every 15 steps
 		if (stepCount == 15){
-			seconds -= 1;
+			global.seconds -= 1;
 			stepCount = 0;
 			}
 			
 		//Formatting the seconds, minutes and rounds counters
 		//Ending the round and change to REST counter
-		 if (minutes == 0) && (currentRound <= rounds) && (seconds == 0){
-			 currentRound += 1; seconds = 59; state = "REST";
-			 restMinutes = pRestMinutes; restSeconds = pRestSeconds;}
+		 if (global.minutes == 0) && (global.currentRound <= global.rounds) && (global.seconds == 0){
+			 global.currentRound += 1; global.seconds = 59; state = "REST";
+			 global.restMinutes = global.pRestMinutes; global.restSeconds = global.pRestSeconds;}
 		
 		//Format the seconds and stop timers
-		 if (seconds == 0) && (minutes > 0){minutes -= 1; seconds = 59;}
-		 if (seconds == 0) && (minutes == 0) && (currentRound > rounds){state = "FINISH";}
+		 if (global.seconds == 0) && (global.minutes > 0){global.minutes -= 1; global.seconds = 59;}
+		 if (global.seconds == 0) && (global.minutes == 0) && (global.currentRound > global.rounds){state = "FINISH";}
 		break;
 
 	case "REST":
@@ -31,19 +36,19 @@ switch(state){
 		
 		//minus 1 second every 15 steps
 		if (stepCount == 15){
-			restSeconds -= 1;
+			global.restSeconds -= 1;
 			stepCount = 0;
 			}
 		//Stop rest timer and move to next round
-		 if (restMinutes == 0) && (currentRound <= rounds) && (restSeconds == 0){
+		 if (global.restMinutes == 0) && (global.currentRound <= global.rounds) && (global.restSeconds == 0){
 			 //Assign seconds for rest from config if its less than 1min
-			if (minutes == 0) && (seconds <= 59){seconds = pSeconds;}
+			if (global.minutes == 0) && (global.seconds <= 59){global.seconds = global.pSeconds;}
 			state = "COUNTING";}
 		//second formatting if mins left
-		 if (restSeconds == 0) && (restMinutes > 0){restMinutes -= 1; restSeconds = 59;}
+		 if (global.restSeconds == 0) && (global.restMinutes > 0){global.restMinutes -= 1; global.restSeconds = 59;}
 		 
 		//Ends counter if no rounds left
-		 if (currentRound > rounds){state = "FINISH";}
+		 if (global.currentRound > global.rounds){state = "FINISH";}
 		break;
 
 	case "FINISH":
@@ -53,13 +58,13 @@ switch(state){
 		instance_create_depth(695,447,1,guiRnd);
 		instance_create_depth(704, 1056, 1, guiRestMin);
 		instance_create_depth(704, 1232, 1, guiRestSec);
-		objCoreTimer.rounds = objCoreTimer.pRounds;
-		objCoreTimer.minutes = objCoreTimer.pMinutes;
-		objCoreTimer.seconds = objCoreTimer.pSeconds;
-		objCoreTimer.restMinutes = objCoreTimer.pRestMinutes;
-		objCoreTimer.restSeconds = objCoreTimer.pRestSeconds;
+		global.rounds = global.pRounds;
+		global.minutes = global.pMinutes;
+		global.seconds = global.pSeconds;
+		global.restMinutes = global.pRestMinutes;
+		global.restSeconds = global.pRestSeconds;
 		btnCount.firstConfig = true;
-		currentRound = 1;
+		global.currentRound = 1;
 		state = "INIT";
 		break;
 }
