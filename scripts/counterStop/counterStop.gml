@@ -11,5 +11,5 @@ function counterStop(){
 		global.restSeconds = global.pRestSeconds;
 		btnCount.firstConfig = true;
 		global.currentRound = 1;
-		state = "INIT";
+		objCoreTimer.state = "INIT";
 }
