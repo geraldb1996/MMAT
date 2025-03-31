@@ -33,7 +33,7 @@
     {"name":"guiSec","order":6,"path":"objects/guiSec/guiSec.yy",},
     {"name":"objInit","order":2,"path":"objects/objInit/objInit.yy",},
     {"name":"objSelection","order":1,"path":"objects/objSelection/objSelection.yy",},
-    {"name":"Sparring","order":1,"path":"rooms/Sparring/Sparring.yy",},
+    {"name":"Sparring","order":3,"path":"rooms/Sparring/Sparring.yy",},
     {"name":"Work","order":2,"path":"rooms/Work/Work.yy",},
     {"name":"sprBtnBack","order":13,"path":"sprites/sprBtnBack/sprBtnBack.yy",},
     {"name":"sprBtnRestart","order":12,"path":"sprites/sprBtnRestart/sprBtnRestart.yy",},

@@ -78,8 +78,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Main","path":"rooms/Main/Main.yy",},},
-    {"roomId":{"name":"Sparring","path":"rooms/Sparring/Sparring.yy",},},
     {"roomId":{"name":"Work","path":"rooms/Work/Work.yy",},},
+    {"roomId":{"name":"Sparring","path":"rooms/Sparring/Sparring.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
