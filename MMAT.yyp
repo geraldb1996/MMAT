@@ -39,6 +39,7 @@
   "name":"MMAT",
   "resources":[
     {"id":{"name":"zuume","path":"fonts/zuume/zuume.yy",},},
+    {"id":{"name":"btnBack","path":"objects/btnBack/btnBack.yy",},},
     {"id":{"name":"btnCount","path":"objects/btnCount/btnCount.yy",},},
     {"id":{"name":"btnMinus","path":"objects/btnMinus/btnMinus.yy",},},
     {"id":{"name":"btnPlus","path":"objects/btnPlus/btnPlus.yy",},},
@@ -57,7 +58,9 @@
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
     {"id":{"name":"Sparring","path":"rooms/Sparring/Sparring.yy",},},
     {"id":{"name":"Work","path":"rooms/Work/Work.yy",},},
+    {"id":{"name":"counterStop","path":"scripts/counterStop/counterStop.yy",},},
     {"id":{"name":"bckMain","path":"sprites/bckMain/bckMain.yy",},},
+    {"id":{"name":"sprBtnBack","path":"sprites/sprBtnBack/sprBtnBack.yy",},},
     {"id":{"name":"sprBtnRestart","path":"sprites/sprBtnRestart/sprBtnRestart.yy",},},
     {"id":{"name":"sprBtnSpar","path":"sprites/sprBtnSpar/sprBtnSpar.yy",},},
     {"id":{"name":"sprBtnStart","path":"sprites/sprBtnStart/sprBtnStart.yy",},},

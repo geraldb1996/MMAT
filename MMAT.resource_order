@@ -19,6 +19,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"btnBack","order":13,"path":"objects/btnBack/btnBack.yy",},
     {"name":"btnCount","order":1,"path":"objects/btnCount/btnCount.yy",},
     {"name":"btnMinus","order":7,"path":"objects/btnMinus/btnMinus.yy",},
     {"name":"btnPlus","order":8,"path":"objects/btnPlus/btnPlus.yy",},
@@ -34,6 +35,7 @@
     {"name":"objSelection","order":1,"path":"objects/objSelection/objSelection.yy",},
     {"name":"Sparring","order":1,"path":"rooms/Sparring/Sparring.yy",},
     {"name":"Work","order":2,"path":"rooms/Work/Work.yy",},
+    {"name":"sprBtnBack","order":13,"path":"sprites/sprBtnBack/sprBtnBack.yy",},
     {"name":"sprBtnRestart","order":12,"path":"sprites/sprBtnRestart/sprBtnRestart.yy",},
     {"name":"sprBtnSpar","order":3,"path":"sprites/sprBtnSpar/sprBtnSpar.yy",},
     {"name":"sprBtnStart","order":1,"path":"sprites/sprBtnStart/sprBtnStart.yy",},
