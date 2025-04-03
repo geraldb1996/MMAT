@@ -25,6 +25,7 @@ else{
 	
 			global.pRestMinutes = global.restMinutes;
 			global.pRestSeconds = global.restSeconds;
+			audio_play_sound(sndBell,10,false);
 			firstConfig = false;
 	}
 	}
