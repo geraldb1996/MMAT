@@ -59,6 +59,8 @@
     {"id":{"name":"Sparring","path":"rooms/Sparring/Sparring.yy",},},
     {"id":{"name":"Work","path":"rooms/Work/Work.yy",},},
     {"id":{"name":"counterStop","path":"scripts/counterStop/counterStop.yy",},},
+    {"id":{"name":"sndBell","path":"sounds/sndBell/sndBell.yy",},},
+    {"id":{"name":"sndHorn","path":"sounds/sndHorn/sndHorn.yy",},},
     {"id":{"name":"bckMain","path":"sprites/bckMain/bckMain.yy",},},
     {"id":{"name":"sprBtnBack","path":"sprites/sprBtnBack/sprBtnBack.yy",},},
     {"id":{"name":"sprBtnRestart","path":"sprites/sprBtnRestart/sprBtnRestart.yy",},},
