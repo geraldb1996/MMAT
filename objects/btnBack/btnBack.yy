@@ -8,8 +8,8 @@
   "name":"btnBack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Control Buttons",
+    "path":"folders/Objects/Control Buttons.yy",
   },
   "parentObjectId":{
     "name":"objButton",

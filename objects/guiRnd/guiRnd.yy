@@ -9,8 +9,8 @@
   "name":"guiRnd",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Time Editors",
+    "path":"folders/Objects/Time Editors.yy",
   },
   "parentObjectId":{
     "name":"objButton2",

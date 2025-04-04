@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Time Editors",
+    "path":"folders/Sprites/Time Editors.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

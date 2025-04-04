@@ -8,8 +8,8 @@
   "name":"btnWork",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Main Buttons",
+    "path":"folders/Objects/Main Buttons.yy",
   },
   "parentObjectId":{
     "name":"objButton",
