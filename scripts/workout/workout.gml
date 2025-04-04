@@ -60,5 +60,4 @@ switch(state){
 		counterStop();
 		break;
 }
-show_debug_message(state)
 }
