@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"workout",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"workout",
+  "parent":{
+    "name":"CoreTimerScripts",
+    "path":"folders/Scripts/CoreTimerScripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
