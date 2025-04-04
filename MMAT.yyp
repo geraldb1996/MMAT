@@ -65,6 +65,7 @@
     {"id":{"name":"objCoreTimer","path":"objects/objCoreTimer/objCoreTimer.yy",},},
     {"id":{"name":"objInit","path":"objects/objInit/objInit.yy",},},
     {"id":{"name":"objSelection","path":"objects/objSelection/objSelection.yy",},},
+    {"id":{"name":"InProgress","path":"rooms/InProgress/InProgress.yy",},},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
     {"id":{"name":"Sparring","path":"rooms/Sparring/Sparring.yy",},},
     {"id":{"name":"Timer","path":"rooms/Timer/Timer.yy",},},
@@ -75,6 +76,7 @@
     {"id":{"name":"sndClick","path":"sounds/sndClick/sndClick.yy",},},
     {"id":{"name":"sndClick2","path":"sounds/sndClick2/sndClick2.yy",},},
     {"id":{"name":"sndHorn","path":"sounds/sndHorn/sndHorn.yy",},},
+    {"id":{"name":"bckInProgress","path":"sprites/bckInProgress/bckInProgress.yy",},},
     {"id":{"name":"bckMain","path":"sprites/bckMain/bckMain.yy",},},
     {"id":{"name":"bckSpar","path":"sprites/bckSpar/bckSpar.yy",},},
     {"id":{"name":"sprBtnBack","path":"sprites/sprBtnBack/sprBtnBack.yy",},},
@@ -100,6 +102,7 @@
     {"roomId":{"name":"Work","path":"rooms/Work/Work.yy",},},
     {"roomId":{"name":"Sparring","path":"rooms/Sparring/Sparring.yy",},},
     {"roomId":{"name":"Timer","path":"rooms/Timer/Timer.yy",},},
+    {"roomId":{"name":"InProgress","path":"rooms/InProgress/InProgress.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

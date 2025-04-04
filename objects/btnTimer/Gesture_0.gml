@@ -1,3 +1,3 @@
-if (room =! Work){
-	room_goto(Work);
+if (room =! Timer){
+	room_goto(InProgress);
 	}
