@@ -1,3 +1,3 @@
 if (room =! Sparring){
-	room_goto(InProgress);
+	room_goto(Sparring);
 	}

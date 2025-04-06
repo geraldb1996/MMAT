@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sparring",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sparring",
+  "parent":{
+    "name":"CoreTimerScripts",
+    "path":"folders/Scripts/CoreTimerScripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

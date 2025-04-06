@@ -5,4 +5,7 @@ switch(room){
 	case Timer:
 		PlayTimerRoom();
 		break;
+	case Sparring:
+		PlayWorkRoom();
+		break;
 }

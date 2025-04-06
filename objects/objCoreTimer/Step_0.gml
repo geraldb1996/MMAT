@@ -6,4 +6,8 @@ switch(room){
 	case Timer:
 		timer();
 		break;
+	
+	case Sparring:
+		sparring();
+		break;
 }
