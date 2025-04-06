@@ -1,5 +1,7 @@
 function counterStop(){
-	if objCoreTimer.state != "INIT"{
+switch (room){
+	case Work:
+		if objCoreTimer.state != "INIT"{
 		instance_create_depth(640, 640,1, guiMin);
 		instance_create_depth(640,832,1,guiSec);
 		instance_create_depth(640,447,1,guiRnd);
@@ -13,4 +15,12 @@ function counterStop(){
 		btnCount.firstConfig = true;
 		global.currentRound = 1;
 		objCoreTimer.state = "INIT";}
+		break;
+	case Timer:
+		objCoreTimer.state = "INIT";
+		global.minutes = 0;
+		global.seconds = 0;
+		btnCount.firstConfig = true;
+		break;
+}
 }

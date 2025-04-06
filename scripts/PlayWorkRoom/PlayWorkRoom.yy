@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"PlayWorkRoom",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlayWorkRoom",
+  "parent":{
+    "name":"CoreTimerScripts",
+    "path":"folders/Scripts/CoreTimerScripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
